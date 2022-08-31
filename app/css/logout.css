@@ -1,0 +1,80 @@
+#logout-container
+{
+    position: absolute;
+    right: 4%;
+    top: 4%;
+    min-width: 6%;
+}
+
+#logout-container input
+{
+    font-size: 100%;
+    font-family: sans-serif;
+    padding: 8px;
+    background: none;
+    color: #fff;
+    border: 1px groove orange;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+@media only screen and (min-width: 320px) and (orientation: portrait)
+{
+    #logout-form
+    {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 700px) and (orientation: portrait)
+{
+    #logout-form
+    {
+        display: block;
+    }
+    
+    #logout-container
+    {
+        top: 2%;
+        min-width: 10%;
+    }
+}
+
+@media only screen and (min-width: 550px) and (orientation: landscape)
+{
+    header
+    {
+        position: relative !important;
+    }
+    
+    #logout-container
+    {
+        min-width: 10%;
+        top: 15%;
+    }
+    
+    #logout-container input
+    {
+       padding: 4px;
+    }
+}
+
+@media only screen and (min-width: 800px) and (orientation: landscape)
+{
+    #logout-container
+    {
+        min-width: 8%;
+        top: 25%;
+    }
+}
+
+@media only screen and (min-width: 1280px) and (orientation: landscape)
+{
+   #logout-container
+    {
+        top: 30%;
+        min-width: 6%;
+    }   
+}
+
