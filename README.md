@@ -7,3 +7,6 @@ The application is not completed, but has basic functionality, so:
 - and another things: under construction
 
 WebSite: https://rafalwalach.pl
+
+Login: demo
+Password: demo
